@@ -39,7 +39,7 @@ $routes->post('/rak/update-rak', 'Rak::update_data_rak');
 $routes->get('/rak/hapus-data-rak/(:alphanum)', 'Rak::hapus_data_rak/$1');
 
 $routes->get('/buku/master-data-buku', 'Buku::master_data_buku');
-$routes->get('/buku/input-data-buku', 'Buku::input_data_buku');
+$routes->get('/buku/input-buku', 'Buku::input_buku');
 $routes->post('/buku/simpan-buku', 'Buku::simpan_data_buku');
 $routes->get('/buku/edit-data-buku/(:alphanum)', 'Buku::edit_data_buku/$1');
 $routes->post('/buku/update-buku', 'Buku::update_data_buku');

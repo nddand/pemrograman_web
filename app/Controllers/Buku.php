@@ -45,7 +45,7 @@ public function input_buku()
     echo view('Backend/Template/footer', $data);
 }
 
-public function simpan_buku()
+public function simpan_data_buku()
 {
     $modelBuku = new M_Buku;
 
